@@ -1,0 +1,12 @@
+  healthMultiplier: 2
+  damageMultiplier: 2
+effect: {
+  type: ParticleEffect
+  particles: 1
+  length: 0
+  lifetime: 30
+  sizeFrom: 2
+  sizeTo: 0
+  colorFrom: ff0000
+  colorTo: ff0000
+}
