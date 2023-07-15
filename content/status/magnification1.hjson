@@ -1,5 +1,5 @@
-  healthMultiplier: 2
-  damageMultiplier: 2
+
+  damage: 1.5
 effect: {
   type: ParticleEffect
   particles: 1
