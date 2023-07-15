@@ -1,9 +1,6 @@
-name: "sporepod"
-displayName: "Spore Biomechs"
-author: "Hydro[#E1C16E[]]brass[[]]"
-description: "Somewhere in the abandoned lab, a portal have opened, strange purple units has come to fight along with you."
+name: "magnification"
+displayName: "Magnification"
+author: "Water molecules"
+description: "Make enemies stronger with magnification status effect (like in battle cats)"
 version: "1.5"
 minGameVersion: "140"
-dependencies: [
-  multi-crafter
-]
