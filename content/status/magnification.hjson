@@ -1,4 +1,5 @@
-damage: 1.5
+healthMultiplier: 2
+damageMultiplier: 2
 effect: {
   type: ParticleEffect
   particles: 1
@@ -6,6 +7,6 @@ effect: {
   lifetime: 30
   sizeFrom: 2
   sizeTo: 0
-  colorFrom: A865C9
-  colorTo: A865C9
+  colorFrom: ff0000
+  colorTo: ff0000
 }
