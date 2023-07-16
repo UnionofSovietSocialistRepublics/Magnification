@@ -6,6 +6,6 @@ effect: {
   lifetime: 30
   sizeFrom: 2
   sizeTo: 0
-  colorFrom: ff0000
-  colorTo: ff0000
+  colorFrom: A865C9
+  colorTo: A865C9
 }

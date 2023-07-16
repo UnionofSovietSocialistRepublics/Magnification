@@ -1,0 +1,59 @@
+type: flying
+flying: true
+speed: 1.75
+drag: 0.3
+engineOffset: 12
+faceTarget: false
+engineSize: 5
+hitSize: 7
+targetAir: false
+circleTarget: true
+
+health: 850
+weapons: [{
+name: Rizomorphgun
+x: 0
+y: 5
+reload: 50
+alternate: true
+ejectEffect: none
+shootEffect: none
+velocityRnd: 1
+inaccuracy: 0
+ignoreRotation: true
+  shoot:
+    {
+    type: shootPattern
+    shots: 3
+    }
+bullet: {
+  type: BombBulletType
+  damage: 0
+  splashDamage: 100
+  splashDamageRadius: 32
+  width: 10
+  height: 14
+  lifetime: 75
+  hitEffect: sapExplosion
+}
+shootSound: shootBig
+}]
+    abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 57D993FF
+        colorFrom: 57D993FF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 65
+        reload: 135
+            }
+    ]
