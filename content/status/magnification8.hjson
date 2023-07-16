@@ -8,5 +8,5 @@ effect: {
   sizeFrom: 2
   sizeTo: 0
   colorFrom: 4E3524
-  colorTo: 5A5A5A
+  colorTo: 242526
 }
