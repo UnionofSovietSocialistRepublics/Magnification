@@ -7,6 +7,6 @@ effect: {
   lifetime: 30
   sizeFrom: 2
   sizeTo: 0
-  colorFrom: CBC3E3
+  colorFrom: 00008b
   colorTo: CBC3E3
 }
